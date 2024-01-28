@@ -9,10 +9,7 @@
 https://jsonplaceholde.typicode.com (ლინკი სპეციალურად რასწორია) დან.
 წარუმატებელი რექუესთის შემთხვევაში ხელახლა ცადოს წამოღება 5_ჯერ 
 
-4. დავწეროთ ფუნქცია რომელიც ეცდება წმოიღოს მონაცემები
- https://dummyjson.com/users დან და https://jsonplaceholder.typicode.com/users დან.
-   ფუნქციამ უნდა დაგვიბრუნოს ის ლისთი რომელის ცატვირთვაც უფრო მალე მოხდება.
-*/
+
 // 1
 const myPromise = new Promise((res, rej) => {
   const random = Math.floor(Math.random() * 2);
